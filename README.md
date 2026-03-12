@@ -13,6 +13,7 @@ This repository provides a complete pipeline for collecting, preparing, fine-tun
 ## Directory Structure
 
 - `scripts/`: Utility scripts for data fetching, preparation, and model training.
+- `webapp/`: Front-end and back-end for interfacing with trained models.
 - `requirements.txt`: Python dependencies.
 - `run_workflow.ipynb`: Run the end-to-end workflow (fetch/prepare data, model training)
 
