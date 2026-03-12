@@ -9,7 +9,6 @@ This repository provides a complete pipeline for collecting, preparing, fine-tun
 - **Model Fine-Tuning**: Fine-tunes GPT-2 (or compatible models) on the prepared Journal of Chemical Information and Modeling dataset using HuggingFace Transformers.
 - **Web Application Backend**: FastAPI backend for serving the fine-tuned model and providing a `/predict` endpoint for text generation.
 - **Web Application Frontend**: React + TypeScript + Vite frontend for user interaction with the model.
-- **CLI Demo**: Simple command-line interface to interact with the API.
 
 ## Directory Structure
 
