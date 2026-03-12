@@ -1,0 +1,10 @@
+transformers
+scikit-learn
+datasets
+torch
+fastapi
+uvicorn
+requests
+tqdm
+bs4
+lxml
