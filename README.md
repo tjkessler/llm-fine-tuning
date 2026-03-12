@@ -1,13 +1,14 @@
 # Journal of Chemical Information and Modeling Text Generation & Fine-Tuning Toolkit
 
-This repository provides a complete pipeline for collecting, preparing, fine-tuning, and serving a GPT-2-based language model on open-access literature from the Journal of Chemical Information and Modeling, specifically from Europe PMC. It includes scripts for data fetching, preprocessing, model training, and an API for text generation.
+This repository provides a complete pipeline for collecting, preparing, fine-tuning, and serving a GPT-2-based language model on open-access literature from the Journal of Chemical Information and Modeling, specifically from Europe PMC. It includes scripts for data fetching, preprocessing, model training, and a web application (frontend and backend) for interacting with your fine-tuned model.
 
 ## Features
 
 - **Data Collection**: Fetches open-access articles from the Journal of Chemical Information and Modeling via Europe PMC.
 - **Data Preparation**: Cleans and tokenizes text, saving as JSONL for efficient model training.
 - **Model Fine-Tuning**: Fine-tunes GPT-2 (or compatible models) on the prepared Journal of Chemical Information and Modeling dataset using HuggingFace Transformers.
-- **API Service**: Serves the fine-tuned model via a FastAPI endpoint for text generation.
+- **Web Application Backend**: FastAPI backend for serving the fine-tuned model and providing a `/predict` endpoint for text generation.
+- **Web Application Frontend**: React + TypeScript + Vite frontend for user interaction with the model.
 - **CLI Demo**: Simple command-line interface to interact with the API.
 
 ## Directory Structure
